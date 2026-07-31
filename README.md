@@ -5,8 +5,10 @@ graphics in your terminal — from a set of coordinates. Comes with a small
 JSON format for annotating the map with markers, lines and shapes.
 
 ```
-$ coords2img -y 48.8566 -x 2.3522 -z 12 -s
+$ coords2img -y 48.8566 -x 2.3522 -z 12 -m -s -o sample_map.png
 ```
+
+![Result for command above](sample_map.png)
 
 ## Features
 
