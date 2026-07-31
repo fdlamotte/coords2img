@@ -1,0 +1,27 @@
+{
+  "zoom": 13,
+  "width": 700,
+  "height": 500,
+  "provider": "opentopo",
+  "lat": 47.636,
+  "lon": -3.466,
+  "marker_defaults": {"shape": "cross", "color": "saddlebrown", "font_size": 13},
+
+  "markers": [
+    {"id": "ship", "lat": 47.6434, "lon": -3.4472, "caption": "You are here", "shape": "square", "color": "navy"},
+    {"id": "cave", "lat": 47.624, "lon": -3.466, "caption": "Beware the cave"},
+    {"id": "cliff", "lat": 47.639, "lon": -3.499, "caption": "Windy cliff"},
+    {"id": "spot", "lat": 47.6486, "lon": -3.511, "caption": "X marks the spot", "shape": "X", "color": "red", "font_color": "red", "font_size": 16, "width": 4}
+  ],
+
+  "lines": [
+    {
+      "points": ["ship", [47.629, -3.437], "cave", [47.637, -3.4749], "cliff", "spot"],
+      "color": "saddlebrown",
+      "width": 4,
+      "type": "dotted",
+      "curve": "bezier",
+      "arrow": "end"
+    }
+  ]
+}

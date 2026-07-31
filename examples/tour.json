@@ -1,0 +1,34 @@
+{
+  "zoom": 13,
+  "width": 600,
+  "height": 350,
+  "lat": 47.745,
+  "lon": -3.376,
+  "markers": [
+    {"id": "home", "lat": 47.757, "lon": -3.356, "caption": "Home", "shape": "🏠", "icon_size": 22},
+    {"id": "cafe", "lat": 47.747, "lon": -3.3638, "caption": "Coffee stop", "shape": "☕", "icon_size": 20},
+    {"id": "park", "lat": 47.747, "lon": -3.385, "caption": "Park", "shape": "🌳", "icon_size": 22},
+    {"id": "castle", "lat": 47.7416, "lon": -3.4113, "caption": "Castle", "shape": "🏰", "icon_size": 24, "font_size": 14}
+  ],
+
+  "lines": [
+    {
+      "points": ["home", "cafe"],
+      "color": "brown",
+      "text": {"middle": {"text": "🚶 10 min", "side": "left"}}
+    },
+    {
+      "points": ["cafe", "park"],
+      "color": "green",
+      "type": "dash",
+      "text": {"middle": {"text": "🚲 5 min", "side": "right"}}
+    },
+    {
+      "points": ["park", "castle"],
+      "color": "purple",
+      "curve": "bezier",
+      "arrow": "end",
+      "text": {"middle": {"text": "🚗 8 min", "side": "left"}}
+    }
+  ]
+}

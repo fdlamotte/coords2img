@@ -1,0 +1,41 @@
+{
+    "a3ac45483484905b693e1855b843d344dd2e27e477d7337b379ab441addddfde": {
+        "public_key": "a3ac45483484905b693e1855b843d344dd2e27e477d7337b379ab441addddfde",
+        "type": 1,
+        "flags": 0,
+        "out_path_hash_mode": 1,
+        "out_path_len": 1,
+        "out_path": "aff1",
+        "adv_name": "M9 Client",
+        "last_advert": 1785100502,
+        "adv_lat": 18.445885,
+        "adv_lon": -69.94508,
+        "lastmod": 1785196948
+    },
+    "e7a2bd4bccf08f3d9772add4f7b9df2086f4029ef5dd973d298363c1ff7d4b27": {
+        "public_key": "e7a2bd4bccf08f3d9772add4f7b9df2086f4029ef5dd973d298363c1ff7d4b27",
+        "type": 2,
+        "flags": 0,
+        "out_path_hash_mode": -1,
+        "out_path_len": -1,
+        "out_path": "",
+        "adv_name": "SDQ_Sarasota_R",
+        "last_advert": 1784661315,
+        "adv_lat": 18.4504,
+        "adv_lon": -69.9485,
+        "lastmod": 1784661316
+    },
+    "28b226cfd30df59e28377ad32ef05f9f3c589b8a16e21582d47b2377057dce76": {
+        "public_key": "28b226cfd30df59e28377ad32ef05f9f3c589b8a16e21582d47b2377057dce76",
+        "type": 2,
+        "flags": 0,
+        "out_path_hash_mode": -1,
+        "out_path_len": -1,
+        "out_path": "",
+        "adv_name": "SDQ_Anacaona_R",
+        "last_advert": 16,
+        "adv_lat": 18.4447,
+        "adv_lon": -69.9535,
+        "lastmod": 1784820814
+    }
+}

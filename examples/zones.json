@@ -1,0 +1,42 @@
+{
+  "zoom": 12,
+  "width": 700,
+  "height": 500,
+
+  "markers": [
+    {"id": "town", "lat": 47.750, "lon": -3.400, "caption": "Town", "shape": "circle", "color": "black"}
+  ],
+
+  "shapes": [
+    {
+      "type": "circle",
+      "center": "town",
+      "radius_km": 5,
+      "color": "blue",
+      "fill": "blue",
+      "fill_style": "hatch",
+      "opacity": 0.6,
+      "line_style": "dash"
+    },
+    {
+      "type": "rect",
+      "center": "town",
+      "width_km": 2,
+      "height_km": 1,
+      "angle": 20,
+      "color": "red",
+      "fill": "red",
+      "fill_style": "cross",
+      "fill_background": "white",
+      "opacity": 0.5
+    },
+    {
+      "type": "poly",
+      "points": [[47.735, -3.360], [47.732, -3.340], [47.720, -3.345], [47.718, -3.365]],
+      "color": "darkgreen",
+      "fill": "green",
+      "fill_style": "solid",
+      "opacity": 0.4
+    }
+  ]
+}
