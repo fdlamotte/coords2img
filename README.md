@@ -36,7 +36,7 @@ $ coords2img -y 48.8566 -x 2.3522 -z 12 -m -s -o sample_map.png
 **Standalone**, no packaging involved:
 
 ```
-curl -O https://raw.githubusercontent.com/yourname/coords2img/main/src/coords2img/coords2img.py
+curl -O https://raw.githubusercontent.com/fdlamotte/coords2img/main/src/coords2img/coords2img.py
 pip install Pillow requests
 python3 coords2img.py -y 48.8566 -x 2.3522 -z 12 -s
 ```
@@ -50,7 +50,7 @@ pip install coords2img
 **From source**, same result:
 
 ```
-git clone https://github.com/yourname/coords2img
+git clone https://github.com/fdlamotte/coords2img
 cd coords2img
 pip install .
 ```

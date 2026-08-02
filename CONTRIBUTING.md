@@ -11,12 +11,12 @@
    smoke test below before submitting.
 
 Bugs and feature requests: use the
-[issue tracker](https://github.com/yourname/coords2img/issues).
+[issue tracker](https://github.com/fdlamotte/coords2img/issues).
 
 ## Development setup
 
 ```
-git clone https://github.com/yourname/coords2img
+git clone https://github.com/fdlamotte/coords2img
 cd coords2img
 python3 -m venv .venv && . .venv/bin/activate
 pip install -e ".[dev]"
